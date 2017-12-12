@@ -69,4 +69,13 @@ public class LinkedList
 			head = n1;
 			return head;
 	}
+	
+	public void print(Node head)
+	{
+		while(head != null)
+		{
+			System.out.print(head.data);
+			head = head.next;
+		}
+	}
 }
